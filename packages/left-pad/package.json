@@ -1,0 +1,14 @@
+{
+  "name": "left-pad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mts",
+  "types": "index.mts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5"
+}

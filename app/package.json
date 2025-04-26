@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mts",
+  "scripts": {
+    "app": "node --experimental-strip-types index.mts",
+    "test": "node --experimental-strip-types --test",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "dependencies": {
+    "left-pad": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2"
+  }
+}
